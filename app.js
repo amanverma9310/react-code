@@ -16,8 +16,9 @@ const parent = React.createElement(
 //jsx  - HTML -Like or xml -like syntax but is not HTML in jsx  
 
 //react element
-const jsxheading = (<h1 id="heading" className="head">
-   Hello World from React using jsx
+const Title = () => (
+   <h1 id="heading" className="head">
+      Hello World from React using jsx
    </h1>
    );
 
@@ -26,15 +27,14 @@ const jsxheading = (<h1 id="heading" className="head">
      //2. functional components-NEW
 
 
-//React functional component
-const HeadingComponent = () => {
-   return(
-      <h1>HELLO world react with Functional component    </h1>
-   )
-};
-const headiingcomponent =() =>(
-  <div id="container"> <h1 className="heading">HELLO world react with Functional component    </h1></div>
-)
+//Component Composition - combining multiple components together to create a complex UI
+const HeadingComponent =() =>(
+  <div id="container">
+   {100+200}
+   <Title/>
+   <h1 className="heading">HELLO world react with Functional component    </h1>
+   </div>
+);
 
 
 const heading = React.createElement("h1",
