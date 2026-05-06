@@ -1,0 +1,27 @@
+{
+  "name": "react-course",
+  "version": "1.0.0",
+  "description": "This is react couse by aman verma",
+  "homepage": "https://github.com/amanverma9310/react-code#readme",
+  "bugs": {
+    "url": "https://github.com/amanverma9310/react-code/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanverma9310/react-code.git"
+  },
+  "license": "ISC",
+  "author": "aman verma",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build":"parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.5"
+  }
+}
